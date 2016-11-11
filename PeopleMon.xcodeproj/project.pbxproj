@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7308CFEA49BD583781BC4ABE /* Pods_PeopleMon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96672FC1AFFF18733710A67A /* Pods_PeopleMon.framework */; };
+		CF113A6E1DD176A90047A888 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF113A6D1DD176A90047A888 /* ProfileViewController.swift */; };
+		CF2F82F31DD1686A00005F6F /* MapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2F82F21DD1686A00005F6F /* MapPin.swift */; };
+		CF3760991DD4ABA5009E5323 /* CaughtTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3760981DD4ABA5009E5323 /* CaughtTableViewController.swift */; };
+		CF436B6C1DCFF49A00577F18 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF436B6B1DCFF49A00577F18 /* Constants.swift */; };
+		CF436B6E1DCFFAC600577F18 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF436B6D1DCFFAC600577F18 /* Utils.swift */; };
+		CF436B701DCFFB1200577F18 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF436B6F1DCFFB1200577F18 /* UserStore.swift */; };
+		CF436B761DD0004300577F18 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF436B751DD0004300577F18 /* Login.storyboard */; };
+		CF436B791DD001D600577F18 /* PeopleMonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF436B781DD001D600577F18 /* PeopleMonViewController.swift */; };
+		CF436B7B1DD003CA00577F18 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF436B7A1DD003CA00577F18 /* LoginViewController.swift */; };
+		CF436B7D1DD003EE00577F18 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF436B7C1DD003EE00577F18 /* RegisterViewController.swift */; };
+		CF44A79C1DD2510A007621F8 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF44A79B1DD2510A007621F8 /* People.swift */; };
+		CF8F608D1DCF6E0C00FDACB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8F608C1DCF6E0C00FDACB2 /* AppDelegate.swift */; };
+		CF8F60921DCF6E0C00FDACB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8F60901DCF6E0C00FDACB2 /* Main.storyboard */; };
+		CF8F60941DCF6E0C00FDACB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8F60931DCF6E0C00FDACB2 /* Assets.xcassets */; };
+		CF8F60971DCF6E0C00FDACB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8F60951DCF6E0C00FDACB2 /* LaunchScreen.storyboard */; };
+		CFCF25141DD53C61008CC1C1 /* ChatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCF25131DD53C61008CC1C1 /* ChatTableViewController.swift */; };
+		CFD60C8E1DD0D73500B0B623 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD60C8D1DD0D73500B0B623 /* User.swift */; };
+		CFF6BE721DD4FD100058C345 /* CaughtTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF6BE711DD4FD100058C345 /* CaughtTableViewCell.swift */; };
+		CFFAE8201DCFF1DB002C5FF8 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFAE81F1DCFF1DB002C5FF8 /* WebServices.swift */; };
+		CFFAE8221DCFF1FA002C5FF8 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFAE8211DCFF1FA002C5FF8 /* NetworkModel.swift */; };
+		CFFAE8241DCFF22B002C5FF8 /* WebServicesExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFAE8231DCFF22B002C5FF8 /* WebServicesExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47E89FE075A12BEFE301DD76 /* Pods-PeopleMon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeopleMon.release.xcconfig"; path = "Pods/Target Support Files/Pods-PeopleMon/Pods-PeopleMon.release.xcconfig"; sourceTree = "<group>"; };
+		67903F89CE19409298DC4E48 /* Pods-PeopleMon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeopleMon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PeopleMon/Pods-PeopleMon.debug.xcconfig"; sourceTree = "<group>"; };
+		96672FC1AFFF18733710A67A /* Pods_PeopleMon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeopleMon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF113A6D1DD176A90047A888 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ViewControllers/ProfileViewController.swift; sourceTree = "<group>"; };
+		CF2F82F21DD1686A00005F6F /* MapPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapPin.swift; path = Components/MapPin.swift; sourceTree = "<group>"; };
+		CF3760981DD4ABA5009E5323 /* CaughtTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CaughtTableViewController.swift; path = ViewControllers/CaughtTableViewController.swift; sourceTree = "<group>"; };
+		CF436B6B1DCFF49A00577F18 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Components/Constants.swift; sourceTree = "<group>"; };
+		CF436B6D1DCFFAC600577F18 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Components/Utils.swift; sourceTree = "<group>"; };
+		CF436B6F1DCFFB1200577F18 /* UserStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserStore.swift; path = Components/UserStore.swift; sourceTree = "<group>"; };
+		CF436B751DD0004300577F18 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = Storyboards/Login.storyboard; sourceTree = "<group>"; };
+		CF436B781DD001D600577F18 /* PeopleMonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PeopleMonViewController.swift; path = ViewControllers/PeopleMonViewController.swift; sourceTree = "<group>"; };
+		CF436B7A1DD003CA00577F18 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ViewControllers/LoginViewController.swift; sourceTree = "<group>"; };
+		CF436B7C1DD003EE00577F18 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = ViewControllers/RegisterViewController.swift; sourceTree = "<group>"; };
+		CF44A79A1DD2151A007621F8 /* PeopleMon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PeopleMon.entitlements; sourceTree = "<group>"; };
+		CF44A79B1DD2510A007621F8 /* People.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		CF8F60891DCF6E0C00FDACB2 /* PeopleMon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeopleMon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8F608C1DCF6E0C00FDACB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF8F60911DCF6E0C00FDACB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF8F60931DCF6E0C00FDACB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF8F60961DCF6E0C00FDACB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF8F60981DCF6E0C00FDACB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFCF25131DD53C61008CC1C1 /* ChatTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatTableViewController.swift; path = ViewControllers/ChatTableViewController.swift; sourceTree = "<group>"; };
+		CFD60C8D1DD0D73500B0B623 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Models/User.swift; sourceTree = "<group>"; };
+		CFF6BE711DD4FD100058C345 /* CaughtTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CaughtTableViewCell.swift; path = Models/CaughtTableViewCell.swift; sourceTree = "<group>"; };
+		CFFAE81F1DCFF1DB002C5FF8 /* WebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebServices.swift; path = Networking/WebServices.swift; sourceTree = "<group>"; };
+		CFFAE8211DCFF1FA002C5FF8 /* NetworkModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkModel.swift; path = Networking/NetworkModel.swift; sourceTree = "<group>"; };
+		CFFAE8231DCFF22B002C5FF8 /* WebServicesExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebServicesExtension.swift; path = Networking/WebServicesExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF8F60861DCF6E0C00FDACB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7308CFEA49BD583781BC4ABE /* Pods_PeopleMon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		322158008563EB9B7123040B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67903F89CE19409298DC4E48 /* Pods-PeopleMon.debug.xcconfig */,
+				47E89FE075A12BEFE301DD76 /* Pods-PeopleMon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3A77A86D04FC8370C6F52EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96672FC1AFFF18733710A67A /* Pods_PeopleMon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF436B6A1DCFF46F00577F18 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CF436B6B1DCFF49A00577F18 /* Constants.swift */,
+				CF436B6D1DCFFAC600577F18 /* Utils.swift */,
+				CF2F82F21DD1686A00005F6F /* MapPin.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		CF436B711DCFFB5C00577F18 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CFD60C8D1DD0D73500B0B623 /* User.swift */,
+				CF44A79B1DD2510A007621F8 /* People.swift */,
+				CFF6BE711DD4FD100058C345 /* CaughtTableViewCell.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CF436B741DD0000D00577F18 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CF8F60901DCF6E0C00FDACB2 /* Main.storyboard */,
+				CF436B751DD0004300577F18 /* Login.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		CF436B771DD0018400577F18 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF436B781DD001D600577F18 /* PeopleMonViewController.swift */,
+				CF436B7A1DD003CA00577F18 /* LoginViewController.swift */,
+				CF436B7C1DD003EE00577F18 /* RegisterViewController.swift */,
+				CF113A6D1DD176A90047A888 /* ProfileViewController.swift */,
+				CF3760981DD4ABA5009E5323 /* CaughtTableViewController.swift */,
+				CFCF25131DD53C61008CC1C1 /* ChatTableViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CF8F60801DCF6E0C00FDACB2 = {
+			isa = PBXGroup;
+			children = (
+				CF8F608B1DCF6E0C00FDACB2 /* PeopleMon */,
+				CF8F608A1DCF6E0C00FDACB2 /* Products */,
+				322158008563EB9B7123040B /* Pods */,
+				C3A77A86D04FC8370C6F52EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF8F608A1DCF6E0C00FDACB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF8F60891DCF6E0C00FDACB2 /* PeopleMon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF8F608B1DCF6E0C00FDACB2 /* PeopleMon */ = {
+			isa = PBXGroup;
+			children = (
+				CF44A79A1DD2151A007621F8 /* PeopleMon.entitlements */,
+				CF436B771DD0018400577F18 /* ViewControllers */,
+				CF436B741DD0000D00577F18 /* Storyboards */,
+				CF436B711DCFFB5C00577F18 /* Models */,
+				CF436B6A1DCFF46F00577F18 /* Components */,
+				CFFAE81C1DCFF187002C5FF8 /* Networking */,
+				CF8F608C1DCF6E0C00FDACB2 /* AppDelegate.swift */,
+				CF8F60931DCF6E0C00FDACB2 /* Assets.xcassets */,
+				CF8F60951DCF6E0C00FDACB2 /* LaunchScreen.storyboard */,
+				CF8F60981DCF6E0C00FDACB2 /* Info.plist */,
+			);
+			path = PeopleMon;
+			sourceTree = "<group>";
+		};
+		CFFAE81C1DCFF187002C5FF8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CF436B6F1DCFFB1200577F18 /* UserStore.swift */,
+				CFFAE81F1DCFF1DB002C5FF8 /* WebServices.swift */,
+				CFFAE8211DCFF1FA002C5FF8 /* NetworkModel.swift */,
+				CFFAE8231DCFF22B002C5FF8 /* WebServicesExtension.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF8F60881DCF6E0C00FDACB2 /* PeopleMon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF8F609B1DCF6E0C00FDACB2 /* Build configuration list for PBXNativeTarget "PeopleMon" */;
+			buildPhases = (
+				48BE032C6B074BC213964C01 /* [CP] Check Pods Manifest.lock */,
+				CF8F60851DCF6E0C00FDACB2 /* Sources */,
+				CF8F60861DCF6E0C00FDACB2 /* Frameworks */,
+				CF8F60871DCF6E0C00FDACB2 /* Resources */,
+				707793EE13B709916E52D7B3 /* [CP] Embed Pods Frameworks */,
+				47124D9E104F38DC0CC344B8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeopleMon;
+			productName = PeopleMon;
+			productReference = CF8F60891DCF6E0C00FDACB2 /* PeopleMon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF8F60811DCF6E0C00FDACB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "David  Bowen";
+				TargetAttributes = {
+					CF8F60881DCF6E0C00FDACB2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = KEN4YAUQ2S;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = CF8F60841DCF6E0C00FDACB2 /* Build configuration list for PBXProject "PeopleMon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF8F60801DCF6E0C00FDACB2;
+			productRefGroup = CF8F608A1DCF6E0C00FDACB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF8F60881DCF6E0C00FDACB2 /* PeopleMon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF8F60871DCF6E0C00FDACB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF436B761DD0004300577F18 /* Login.storyboard in Resources */,
+				CF8F60971DCF6E0C00FDACB2 /* LaunchScreen.storyboard in Resources */,
+				CF8F60941DCF6E0C00FDACB2 /* Assets.xcassets in Resources */,
+				CF8F60921DCF6E0C00FDACB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47124D9E104F38DC0CC344B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PeopleMon/Pods-PeopleMon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48BE032C6B074BC213964C01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		707793EE13B709916E52D7B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PeopleMon/Pods-PeopleMon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF8F60851DCF6E0C00FDACB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2F82F31DD1686A00005F6F /* MapPin.swift in Sources */,
+				CFFAE8221DCFF1FA002C5FF8 /* NetworkModel.swift in Sources */,
+				CF436B7D1DD003EE00577F18 /* RegisterViewController.swift in Sources */,
+				CFF6BE721DD4FD100058C345 /* CaughtTableViewCell.swift in Sources */,
+				CF3760991DD4ABA5009E5323 /* CaughtTableViewController.swift in Sources */,
+				CF44A79C1DD2510A007621F8 /* People.swift in Sources */,
+				CF113A6E1DD176A90047A888 /* ProfileViewController.swift in Sources */,
+				CF8F608D1DCF6E0C00FDACB2 /* AppDelegate.swift in Sources */,
+				CF436B6E1DCFFAC600577F18 /* Utils.swift in Sources */,
+				CF436B791DD001D600577F18 /* PeopleMonViewController.swift in Sources */,
+				CFFAE8241DCFF22B002C5FF8 /* WebServicesExtension.swift in Sources */,
+				CFFAE8201DCFF1DB002C5FF8 /* WebServices.swift in Sources */,
+				CF436B701DCFFB1200577F18 /* UserStore.swift in Sources */,
+				CFCF25141DD53C61008CC1C1 /* ChatTableViewController.swift in Sources */,
+				CF436B7B1DD003CA00577F18 /* LoginViewController.swift in Sources */,
+				CF436B6C1DCFF49A00577F18 /* Constants.swift in Sources */,
+				CFD60C8E1DD0D73500B0B623 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF8F60901DCF6E0C00FDACB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF8F60911DCF6E0C00FDACB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF8F60951DCF6E0C00FDACB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF8F60961DCF6E0C00FDACB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF8F60991DCF6E0C00FDACB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF8F609A1DCF6E0C00FDACB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF8F609C1DCF6E0C00FDACB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67903F89CE19409298DC4E48 /* Pods-PeopleMon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PeopleMon/PeopleMon.entitlements;
+				DEVELOPMENT_TEAM = KEN4YAUQ2S;
+				INFOPLIST_FILE = PeopleMon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.PeopleMon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CF8F609D1DCF6E0C00FDACB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47E89FE075A12BEFE301DD76 /* Pods-PeopleMon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PeopleMon/PeopleMon.entitlements;
+				DEVELOPMENT_TEAM = KEN4YAUQ2S;
+				INFOPLIST_FILE = PeopleMon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.PeopleMon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF8F60841DCF6E0C00FDACB2 /* Build configuration list for PBXProject "PeopleMon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8F60991DCF6E0C00FDACB2 /* Debug */,
+				CF8F609A1DCF6E0C00FDACB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF8F609B1DCF6E0C00FDACB2 /* Build configuration list for PBXNativeTarget "PeopleMon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8F609C1DCF6E0C00FDACB2 /* Debug */,
+				CF8F609D1DCF6E0C00FDACB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF8F60811DCF6E0C00FDACB2 /* Project object */;
+}
