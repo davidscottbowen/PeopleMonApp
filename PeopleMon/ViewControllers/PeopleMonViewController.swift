@@ -105,15 +105,6 @@ class PeopleMonViewController: UIViewController {
                         self.nearbyPeople.append(i)
                     }
                 }
-                self.nearbyPeople.sort(by: { (user1, user2) -> Bool in
-                    let locationOfUser1 = CLLocation(latitude: user1.latitude!, longitude: user1.longitude!)
-                    let distance1 = Double(locationOfUser1.distance(from: self.previousLocation!))
-                    
-                    let locationOfUser2 = CLLocation(latitude: user2.latitude!, longitude: user2.longitude!)
-                    let distance2 = Double(locationOfUser2.distance(from: self.previousLocation!))
-                    
-                    return distance1 < distance2
-                })
                 self.tableView.reloadData()
             }
         }
